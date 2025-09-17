@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+.Spotlight-V100
+.fseventsd
+.TemporaryItems
+.Trashes
+.Trash-*
+Thumbs.db
+desktop.ini
+*Zone.Identifier
+
+# env
+.env
+.env.*
+!.env.example
+!.env.sops
+
+# data & secrets
+**/data/**
+!**/data/.gitkeep
+**/secrets/**
+!**/secrets/**.sops*
